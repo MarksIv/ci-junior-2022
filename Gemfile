@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 # Martins Tararujs22
 # fdsfsdfsd
-# fdssfs
 #tst comment
 
 source "https://rubygems.org"
@@ -15,3 +14,5 @@ gem "rest-client"
 gem "json"
 gem "test-unit"
 gem "mysql2"
+
+
