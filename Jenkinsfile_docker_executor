@@ -1,8 +1,8 @@
 pipeline {
     agent any
     triggers { 
-        pollSCM('*/1 * * * *') 
-        upstream(upstreamProjects: 'Test image base', treshold: hudson.model.Result.SUCCESS)
+        pollSCM('*/1 * * * *')
+        upstream(upstreamProjects: 'Test image base', threshold: hudson.model.Result.SUCCESS)
     }
     stages {
         stage('build-docker-image') {
