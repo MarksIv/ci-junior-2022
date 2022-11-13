@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                sh "Running UI tests on ${params.ENVIRONMENT} environment"
+                echo "Running UI tests on ${params.ENVIRONMENT} environment"
             }
         }
     }
